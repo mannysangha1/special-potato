@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Password Generator</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  <script src="/special-potato/Develop/assets/js/script.js"></script>
+</head>
+<body>
+
+  <form id="passwordGeneratorForm">
+    <div class="container">
+      <h2>Password Generator</h2>
+      <div class="result_container">
+      <span id="result"></span>
+      <button id="copy">Copy</button>
+      </div>
+
+      <div class="options">
+      <div class="option">
+        <label>Length</label>
+      <!-- Answer to the Ultimate Question of Life, the Universe, and Everything -->  
+        <input type="number" id="length" min="4" max="42" value="10">
+      </div>
+      <div class="option">
+        <label>Include Uppercase</label>
+        <input type="checkbox" id="uppercase" checked>
+      </div>
+      <div class="option">
+        <label>Include Numbers</label>
+        <input type="checkbox" id="numbers" checked>
+      </div>
+      <div class="option">
+        <label>Include Symbols</label>
+        <input type="checkbox" id="symbols" checked>
+      </div>
+    </div>
+    <button class="btn" id="generate" type="submit">Generate Password</button>
+
+  </div>
+</form>
+</body>
+</html>
