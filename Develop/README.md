@@ -1,6 +1,6 @@
 # 3-Javascript-Random Password Generator 
 
-This was an assigment for my coding course that I am currently taking at the University of Washington
+This was an assigment for my coding course that I am currently taking at the University of Washington.
 
 I used the following lanhuages and styles
 
@@ -23,3 +23,6 @@ I used the following lanhuages and styles
 
 
 ## Creator 
+
+* [Github](https://github.com/mannysangha1)
+* [Linkedin](https://www.linkedin.com/in/manny-sangha-74a396a5/)
