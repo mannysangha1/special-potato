@@ -18,7 +18,7 @@ I used the following lanhuages and styles
 
 ## Link to deployed application
 
-* [Random Password Generator] (http://127.0.0.1:5500/special-potato/Develop/index.html)
+* [Random Password Generator](http://127.0.0.1:5500/special-potato/Develop/index.html)
 
 
 
