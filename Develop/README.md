@@ -2,7 +2,7 @@
 
 This was an assigment for my coding course that I am currently taking at the University of Washington.
 
-I used the following lanhuages and styles
+I used the following languages and styles.
 
 - CSS STYLING
 - JAVASCRIPT Code {Main one for this project}
