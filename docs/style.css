@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* This creates the body or page for the application */
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'oswald', sans-serif;
+  background-color: #39378f;
+}
+/* The box  */
+.container {
+  padding: 4rem 4rem;
+  border: 1px solid black;
+  width: 350px;
+  background-color: #4abd15;
+}
+/* The header */
+h2 {
+  text-align: center;
+  padding: 15px 0;
+}
+/* What is the option even? Do we even have options for anything? */
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+/* Results */
+.result_container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+/* Results part II */
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+/* Copy button */
+.result_container #copy {
+  height: 40px;
+  width: 40px;
+  background-color: #eb1606;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+/* Copy button part II*/
+.result_container #copy:hover {
+  background-color: #1c2541;
+  color: #ffffff;
+
+}
+/* GENERATE */
+#generate {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #0b132b;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+
+}
+/* GENERATE BUTTON */
+#generate:hover {
+  background-color: #5bc0be;
+  color: #ffffff;
+
+}
+
